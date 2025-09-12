@@ -1,6 +1,6 @@
 <h1 align="center">🏋️‍♂️ HMIN-SPORT</h1>
 <p align="center">
-  <b>SAS Pemrograman Website Lanjutan</b><br>
+  <b>STS Pemrograman Website Lanjutan</b><br>
   🚀 Proyek untuk tugas lanjutan pengembangan website dengan fitur modern.
 </p>
 
@@ -14,6 +14,7 @@
 ## 👨‍💻 Contributors
 - **Yansen-loav**  
 - **Fernandez-oss**
+- **kepin28**
 
 ---
 
