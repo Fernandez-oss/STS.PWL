@@ -1,7 +1,7 @@
 <h1 align="center">🏋️‍♂️ HMIN-SPORT</h1>
 <p align="center">
   <b>STS Pemrograman Website Lanjutan</b><br>
-  🚀 Proyek untuk tugas lanjutan pengembangan website dengan fitur modern & interaktif.
+  🚀 Proyek Pemograman Web Lanjutan dengan fitur modern & interaktif.
 </p>
 
 ---
@@ -29,15 +29,14 @@
 ---
 
 ## ✨ Fitur Utama
-✅ **Responsive Design** – Bisa diakses dari HP maupun desktop  
-🎨 **UI/UX Modern** – Desain berasal dari Figma dengan tampilan kekinian  
-⚡ **Optimized Performance** – Loading cepat & efisien  
+✅ **Responsive Design** 
+🎨 **UI/UX Modern** 
+⚡ **Optimized Performance** 
 
 ---
 
 ## 🚀 Tech Stack
 - 🌐 **HTML5, CSS3, JavaScript**  
-- ⚛️ **Framework Modern (opsional: React / Next.js jika dipakai)**  
 - 🎨 **Figma to Code**  
 
 ---
