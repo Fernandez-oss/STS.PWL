@@ -36,7 +36,7 @@
 ---
 
 ## 🚀 Tech Stack
-- 🌐 **HTML5, CSS3, JavaScript**  
+- 🌐 **HTML, CSS, JavaScript**  
 - 🎨 **Figma to Code**  
 
 ---
