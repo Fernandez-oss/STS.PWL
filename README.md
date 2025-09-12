@@ -1,7 +1,5 @@
 <h1 align="center">🏋️‍♂️ HMIN-SPORT</h1>
-<p align="center">
-  <b>STS Pemrograman Website Lanjutan</b><br>
-  🚀 Proyek Pemograman Web Lanjutan dengan fitur modern & interaktif.
+<p>H-MIN SPORT adalah sebuah platform ecommerce yang bertujuan untuk membantu orang-orang mencari alat olahraga apapun.
 </p>
 
 ---
