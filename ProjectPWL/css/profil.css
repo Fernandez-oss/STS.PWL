@@ -1,0 +1,157 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.box1{
+    width: 350px;
+    height: 1050px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0,0,0,0.3);
+    margin-left: -50px;
+    margin-top: -150px;
+    margin-bottom: 0px;
+    padding: 20px;
+}
+
+.nama{
+    margin-top: -150px;
+    margin-left: 130px;
+}
+
+.pembatas {
+    border: none;
+    border-top: 3px solid #000000;
+    margin: -30px -20px;
+    width: 390px;
+}
+
+.pembatas2 {
+    border: none;
+    border-top: 3px solid #a5a5a5;
+    margin: -30px -20px;
+    width: 390px;
+}
+
+.pembatas3 {
+    border: none;
+    border-top: 3px solid #d1c4c4;
+    margin-left: -350px;
+    width: 1050px;
+}
+
+.box2{
+    width: 310px;
+    height: 105px;
+    background: #d9d9d9;
+    border-radius: 10px;
+    padding: 20px;
+    margin-top: 60px;
+}
+
+.ijoijo{
+    margin-left: 257px;
+    margin-top: -47px;
+}
+
+.saldo{
+    margin-left: 157px;
+    margin-top: -48px;
+}
+
+.text{
+    font-family: "Black Ops One", sans-serif;
+}
+
+.kotak-gradasi {
+    width: 1480px;
+    height: 1200px;
+    background: linear-gradient(to bottom, #ffffff, #c9c0c0);
+    margin: 30px auto;
+    padding: 100px;
+    margin-top: 100px;
+}
+
+.box3{
+    width: 350px;
+    height: 390px;
+    border: 3px solid #d1c4c4;
+    border-radius: 10px;
+    margin-left: 450px;
+    margin-top: -10px;
+    margin-bottom: 0px;
+    padding: 350px;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.18);
+}
+
+.itulah{
+    margin-top: -400px;
+    margin-left: -300px;
+    font-family: "Black Ops One", sans-serif;
+    font-size: 25px;
+    color: #000000;
+    line-height: 2.5;
+    font-weight: bold;
+}
+
+.profil{
+    border: 1px solid #8e8784;
+    box-shadow: 0 4px 16px rgba(0,0,0,0.18);
+    width: 475px;
+    height: 620px;
+    border-radius: 20px;
+    margin-left: -300px;
+    margin-top: 80px;
+}
+
+.pilihfoto{
+    width: 365px;
+    height: 60px;
+    margin-left: 55px;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 45px;
+    background-color: transparent;
+}
+
+.pilihsandi{
+    width: 475px;
+    height: 60px;
+    margin-left: 0px;
+    margin-top: 30px;
+    border-radius: 10px;
+    font-size: 35px;
+    background-color: transparent;
+    border: 2px solid #000;
+}
+.ubah-bio{
+    width: 475px;
+    height: 80px;
+    margin-left: 200px;
+    margin-top: -630px;
+    background-color: transparent;
+    border: 2px solid transparent;
+}
+
+.nama-bio{
+    width: 475px;
+    height: 60px;
+    margin-top: -40px;
+    margin-left: -1px;
+    font-size: 30px;
+    background-color: transparent;
+    color: #919191;
+    border: 2px solid transparent;
+}
+
+.nama-kontak{
+    width: 475px;
+    height: 60px;
+    margin-top: -40px;
+    margin-left: -1px;
+    font-size: 30px;
+    background-color: transparent;
+    color: #919191;
+    border: 2px solid transparent;
+}

@@ -1,0 +1,185 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    width: 105.9rem;
+    height: 100px;
+    background-color: #c9c0c0;
+    border: 1px solid black;
+}
+
+.logo{
+    width : 65px; 
+    height: 60px; 
+    margin-left: 10px;
+    margin-top: 10px;
+
+}
+
+.hmin{
+    font-family: "Black Ops One", sans-serif;
+    font-size: 30px;
+    margin-top: -65px;
+    margin-left: 80px;
+}
+
+.sport{
+    font-family: "Black Ops One", sans-serif;
+    font-size: 30px;
+    margin-top: -30px;
+    margin-left: 80px;
+}
+
+.motivasi{
+    font-family: "Black Ops One", sans-serif;
+    font-size: 15px;
+    margin-top: -10px;
+    margin-left: 15px;
+}
+
+.cari{
+    width: 700px;
+    height: 40px;
+    background-color: #ffffff;
+    border: 1px solid black;
+    border-radius: 10px;
+    margin-top: -90px;
+    display: flex;
+    margin-left: 500px;
+}
+
+.iconcari{
+    width: 35px;
+    height: 35px;
+    margin-left: 650px;
+    margin-top:2px;
+}
+
+.icon1{
+    margin-left: 1240px;
+    margin-top: -45px;
+}
+.icon2{
+    margin-left: 1320px;
+    margin-top: -45px;
+}
+.icon3{
+    margin-left: 1400px;
+    margin-top: -45px;
+}
+
+.man{
+    font-family: "Black Ops One", sans-serif;
+    font-size: 15px;
+    font-weight: thin;
+    margin-top: -10px;
+    margin-left: 400px;
+}
+
+.woman{
+    font-family: "Black Ops One", sans-serif;
+    font-size: 15px;
+    font-weight: thin;
+    margin-top: -33px;
+    margin-left: 580px;
+}
+
+.kids{
+    font-family: "Black Ops One", sans-serif;
+    font-size: 15px;
+    font-weight: thin;
+    margin-top: -33px;
+    margin-left: 760px;
+}
+
+.shoes{
+    font-family: "Black Ops One", sans-serif;
+    font-size: 15px;
+    font-weight: thin;
+    margin-top: -33px;
+    margin-left: 940px;
+}
+
+.clothes{
+    font-family: "Black Ops One", sans-serif;
+    font-size: 15px;
+    font-weight: thin;
+    margin-top: -32px;
+    margin-left: 1120px;
+}
+
+.tools{
+    font-family: "Black Ops One", sans-serif;
+    font-size: 15px;
+    font-weight: thin;
+    margin-top: -33px;
+    margin-left: 1300px;
+}
+
+.login{
+    margin-left: 1500px;
+    margin-top: -40px;
+}
+
+.user{
+    margin-left: 1480px;
+    margin-top: -45px;
+    
+}
+
+.fani{
+    font-family: "Black Ops One", sans-serif;
+    font-size: 15px;
+    margin-top: -80px;
+    margin-left: 90px;
+}
+
+.manu{
+    font-family: "Black Ops One", sans-serif;
+    font-size: 15px;
+    font-weight: thin;
+    margin-top: -20px;
+    margin-left: 400px;
+}
+
+.womanu{
+    font-family: "Black Ops One", sans-serif;
+    font-size: 15px;
+    font-weight: thin;
+    margin-top: -33px;
+    margin-left: 580px;
+}
+
+.kidsu{
+    font-family: "Black Ops One", sans-serif;
+    font-size: 15px;
+    font-weight: thin;
+    margin-top: -33px;
+    margin-left: 760px;
+}
+
+.shoesu{
+    font-family: "Black Ops One", sans-serif;
+    font-size: 15px;
+    font-weight: thin;
+    margin-top: -33px;
+    margin-left: 940px;
+}
+
+.clothesu{
+    font-family: "Black Ops One", sans-serif;
+    font-size: 15px;
+    font-weight: thin;
+    margin-top: -33px;
+    margin-left: 1120px;
+}
+
+.toolsu{
+    font-family: "Black Ops One", sans-serif;
+    font-size: 15px;
+    font-weight: thin;
+    margin-top: -33px;
+    margin-left: 1300px;
+}

@@ -1,0 +1,110 @@
+    body {
+      background-color: #ffffff;
+    }
+
+    main {
+      flex-grow: 1;
+      padding: 1rem 1.5rem;
+      max-width: 800px;
+      margin: 0 auto;
+      background-color: #fff;
+      border-radius: 10px;
+      box-shadow: 0 8px 16px rgb(0 0 0 / 0.12);
+      font-weight: 500;
+      font-size: 1rem;
+      color: #444;
+      text-align: justify;
+      letter-spacing: 0.02em;
+      margin-top: 1.5rem;
+    }
+
+    footer {
+      background-color: #cfd6e0;
+      font-size: 0.9rem;
+      color: #5d5d5d;
+      height: 12rem;
+      margin-top: 4.2rem;
+    }
+
+    .footer-container {
+      display: flex;
+      flex-wrap: wrap;
+      max-width: 1100px;
+      margin: 0 auto;
+      justify-content: space-between;
+      margin-top: -3rem;
+    }
+
+    .footer-column {
+      min-width: 130px;
+      flex: 1 1 130px;
+    }
+
+    .footer-column h2 {
+      font-weight: 600;
+      font-size: 1.1rem;
+      color: #737c9a;
+      margin-bottom: 0.75rem;
+      font-family: 'Segoe UI Semibold', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    .footer-column ul {
+      list-style: none;
+    }
+
+    .footer-column ul li {
+      margin-bottom: 0.45rem;
+    }
+
+    .footer-column ul li a {
+      color: #878f9f;
+      text-decoration: none;
+      transition: color 0.2s ease;
+    }
+
+    .footer-column ul li a:hover,
+    .footer-column ul li a:focus {
+      color: #4a5568;
+      text-decoration: underline;
+      outline: none;
+    }
+
+    .social-icons {
+      display: flex;
+      gap: 12px;
+      flex-wrap: wrap;
+    }
+
+    .social-icons a {
+      display: inline-block;
+      width: 28px;
+      height: 28px;
+      line-height: 28px;
+      text-align: center;
+      border-radius: 4px;
+      background-color: #9aa3b0;
+      color: #fff;
+      font-weight: 700;
+      text-decoration: none;
+      font-size: 14px;
+      user-select: none;
+      transition: background-color 0.3s ease;
+      font-family: Arial, sans-serif;
+    }
+    .social-icons a:hover,
+    .social-icons a:focus {
+      background-color: #737c9a;
+      outline: none;
+    }
+
+    @media (max-width: 650px) {
+      .footer-container {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 1.3rem;
+      }
+      main {
+        margin: 1.5rem 1rem;
+        font-size: 0.9rem;
+      }
+    }

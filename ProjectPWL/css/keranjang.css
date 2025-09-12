@@ -1,0 +1,135 @@
+body {
+    background: linear-gradient(180deg, #ffffff, #cecece);
+    margin: 20px;
+    color: #000000;
+}
+
+.container {
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+h2 {
+    margin-bottom: 20px;
+}
+
+.keranjang-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.keranjang-item {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.keranjang-content {
+    flex: 1 1 70%;
+    display: flex;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    gap: 15px;
+    align-items: center;
+    min-height: 120px;
+}
+
+.gambar-placeholder {
+    flex-shrink: 0;
+    width: 80px;
+    height: 80px;
+    background: repeating-conic-gradient(#ccc 0 25%, transparent 0 50%) 50% / 20px 20px;
+    border-radius: 50%;
+}
+
+.text-content {
+    flex: 1;
+}
+
+.text-content h3 {
+    margin: 0 0 5px 0;
+    font-weight: 700;
+    font-size: 1rem;
+}
+
+.text-content p {
+    margin: 0 0 15px 0;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 0.9rem;
+    color: #666;
+}
+
+.btn-mulai {
+    background-color: #505a70;
+    color: white;
+    border: none;
+    padding: 7px 18px;
+    border-radius: 6px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.btn-mulai:hover {
+    background-color: #3b4460;
+}
+
+.ringkasan-belanja {
+    flex: 0 0 200px;
+    background: white;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: center;
+}
+
+.ringkasan-belanja h4 {
+    margin: 0 0 10px 0;
+    font-weight: 700;
+}
+
+.ringkasan-belanja label {
+    font-size: 0.85rem;
+    font-weight: 500;
+}
+
+.ringkasan-belanja input {
+    width: 100%;
+    padding: 7px;
+    font-size: 0.9rem;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    background: #f5f5f5;
+}
+
+.btn-promo {
+    background: none;
+    border: none;
+    color: #505a70;
+    font-style: italic;
+    font-weight: 600;
+    cursor: pointer;
+    padding: 8px 0;
+    text-align:center;
+}
+
+.btn-promo:hover {
+    text-decoration: underline;
+}
+
+.btn-beli {
+    background-color: #c0c0c0;
+    border: none;
+    border-radius: 6px;
+    padding: 10px 0;
+    font-weight: 700;
+    color: #fff;
+    cursor: not-allowed;
+}
