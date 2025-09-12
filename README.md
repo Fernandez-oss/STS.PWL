@@ -7,7 +7,7 @@
 ---
 
 ## 📌 Link Desain
-🔗 [Figma Project](https://www.figma.com/design/kwbiIiv4rhLkQV8MC2EWHR/Untitled?node-id=0-1&t=wbex9ZygfdpBVIAj-1)
+🔗 [Figma Project](https://www.figma.com/design/kWbiiIv4rhLkQV8MC2EWHR/Untitled?node-id=0-1&t=42KpWn2v4UPbNkJn-1)
 
 ---
 
