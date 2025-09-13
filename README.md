@@ -48,7 +48,6 @@ Tujuan utama dari proyek ini adalah:
 
 ## 🚀 Tech Stack
 - 🌐 **HTML5, CSS3, JavaScript**  
-- ⚛️ **Framework Modern (opsional: React / Next.js jika dipakai)**  
 - 🎨 **Figma to Code**  
 
 ---
