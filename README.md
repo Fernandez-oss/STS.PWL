@@ -15,7 +15,7 @@
 ---
 
 ## 📖 Pengertian
-**HMIN-SPORT** adalah proyek pengembangan website bertema olahraga yang dirancang untuk memenuhi tugas *STS Pemrograman Website Lanjutan*.  
+**HMIN-SPORT** adalah proyek pengembangan website bertema olahraga yang dirancang untuk menarik para pelanggan/pengguna untuk berbelanja pada layanan kami.  
 Website ini dibuat dengan memperhatikan aspek **desain modern, responsivitas, dan performa** agar dapat memberikan pengalaman terbaik kepada pengguna.  
 
 Tujuan utama dari proyek ini adalah:
