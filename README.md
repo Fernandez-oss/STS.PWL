@@ -1,7 +1,7 @@
 <h1 align="center">🏋️‍♂️ HMIN-SPORT</h1>
 <p align="center">
   <b>SAS Pemrograman Website Lanjutan</b><br>
-  🚀 Proyek untuk tugas lanjutan pengembangan website dengan fitur modern & interaktif.
+  🚀 Proyek pengembangan aplikasi web bertema olahraga dengan fitur modern & interaktif.
 </p>
 
 ---
@@ -15,18 +15,27 @@
 ---
 
 ## 📖 Pengertian  
-**HMIN-SPORT** adalah proyek pengembangan website bertema olahraga yang dirancang untuk menarik para pelanggan/pengguna agar berbelanja pada layanan kami.  
-Website ini dibuat dengan memperhatikan aspek **desain modern, responsivitas, dan performa** agar dapat memberikan pengalaman terbaik kepada pengguna.
+**HMIN-SPORT** merupakan sebuah aplikasi web berbasis e-commerce yang dirancang khusus untuk menyediakan berbagai kebutuhan olahraga dalam satu platform.  
+Website ini dibangun sebagai bagian dari proyek *SAS Pemrograman Website Lanjutan*, dengan fokus pada penerapan langsung teori-teori pengembangan web modern seperti:
 
-🛍️ Website ini menyediakan berbagai kebutuhan olahraga, di antaranya:  
-- 👕 **Pakaian Olahraga** (jersey, training set, dll)  
-- 🏐 **Perlengkapan Olahraga** (sepatu, tas, aksesoris, dll)  
-- 🏋️ **Alat-alat Olahraga** (dumbbell, matras, bola, dll)  
+- Desain antarmuka pengguna (UI/UX) yang efektif  
+- Responsivitas pada berbagai ukuran layar  
+- Struktur data yang terorganisir  
+- Interaksi pengguna yang intuitif  
+- Integrasi database untuk sistem belanja  
 
-Tujuan utama proyek ini:
-- 💡 Menerapkan teori pemrograman web ke dalam praktik nyata  
-- 🤝 Melatih kerja sama tim dalam pengembangan website  
-- 🚀 Menghasilkan produk digital yang optimal dan usable  
+HMIN-SPORT tidak hanya menjadi tugas akademik, tetapi juga simulasi nyata bagaimana sebuah website komersial bekerja — mulai dari menampilkan produk, menampilkan brand terkenal, mengelola keranjang belanja, hingga sistem autentikasi pengguna.
+
+🛍️ Website ini menyediakan berbagai kategori produk olahraga, antara lain:
+- 👕 **Pakaian Olahraga** seperti jersey, training set, hoodie, dll  
+- 🏐 **Perlengkapan Olahraga** seperti sepatu, tas, bola, aksesoris  
+- 🏋️ **Alat-alat Fitness** seperti dumbbell, matras, handgrip, dll  
+
+Tujuan pengembangan HMIN-SPORT:
+- 💡 Mengaplikasikan teori pemrograman web ke real project  
+- 🤝 Melatih kolaborasi tim dalam workflow pengembangan  
+- 🚀 Menghasilkan aplikasi web yang modern, interaktif, dan stabil  
+- 🧩 Memahami proses end-to-end pembuatan website — dari desain, frontend, backend, hingga database  
 
 ---
 
@@ -45,34 +54,34 @@ https://www.figma.com/design/kWbiiIv4rhLkQV8MC2EWHR/Untitled?node-id=0-1&t=42KpW
 ---
 
 ## ✨ Fitur Utama  
-- ✅ **Responsive Design** — Tampil optimal di HP & desktop  
-- 🎨 **UI/UX Modern** — Mengikuti rancangan Figma  
-- ⚡ **Optimized Performance** — Loading cepat & stabil  
-- 🛒 **Shopping System** — Produk, keranjang, dan manajemen user  
-- 🔍 **Brand Filtering** — Memilih produk berdasarkan brand  
-- 👤 **User Authentication** — Login, register, password encrypted  
+- ✅ **Responsive Design** — Optimal di HP & desktop  
+- 🎨 **UI/UX Modern** — Mengikuti konsep Figma  
+- ⚡ **Optimized Performance** — Loading cepat  
+- 🛒 **Sistem Keranjang Belanja**  
+- 🔍 **Filter Berdasarkan Brand**  
+- 👤 **User Authentication (login & register)**  
+- 🔐 **Password terenkripsi (bcrypt)**  
 
 ---
 
-## 🧱 Entitas Database yang Digunakan  
-Berikut tabel utama dalam sistem:
+## 🧱 Entitas Database  
 
 ### **1. users**  
-Menyimpan data akun pengguna.  
-Kolom: id, nama, email, password
+Data akun pengguna  
+Kolom: id, nama, email, password  
 
 ### **2. brand**  
-Data merk olahraga.  
-Kolom: id, brand, logo
+Daftar brand olahraga  
+Kolom: id, brand, logo  
 
 ### **3. produk**  
-Data seluruh produk yang dijual.  
-Kolom: id, nama_produk, harga, brand, rating, terjual, orang, gambar, stock, deskripsi, kondisi
+Data seluruh produk yang tersedia  
+Kolom: id, nama_produk, harga, brand, rating, terjual, orang, gambar, stock, deskripsi, kondisi  
 
 ### **4. keranjang**  
-Relasi user → produk.  
+Relasi user ↔ produk  
 Kolom: id, user_id, produk_id, jumlah  
-Memiliki **foreign key** ke tabel users & produk.
+Dengan foreign key ke `users` & `produk`  
 
 ---
 
@@ -86,7 +95,7 @@ Memiliki **foreign key** ke tabel users & produk.
 ---
 
 ## 🗄️ Setup Database  
-Gunakan SQL berikut untuk setup database **pwlmengenaskan** sesuai file yang diupload:
+Gunakan SQL berikut (diambil dari file `.sql` asli) untuk membuat database:
 
 ```sql
 -- Database: `pwlmengenaskan`
@@ -141,3 +150,4 @@ CREATE TABLE `keranjang` (
   CONSTRAINT `keranjang_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE,
   CONSTRAINT `keranjang_ibfk_2` FOREIGN KEY (`produk_id`) REFERENCES `produk` (`id`) ON DELETE CASCADE
 );
+
