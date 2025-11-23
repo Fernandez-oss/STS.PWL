@@ -15,21 +15,21 @@
 ---
 
 ## 📖 Pengertian  
-**HMIN-SPORT** adalah aplikasi web berbasis e-commerce yang menyediakan berbagai perlengkapan olahraga dalam satu platform.  
-Proyek ini dibuat untuk *SAS Pemrograman Website Lanjutan* dan menekankan praktik nyata pengembangan web modern seperti:
+**HMIN-SPORT** merupakan sebuah aplikasi web berbasis e-commerce yang dirancang untuk memenuhi berbagai kebutuhan olahraga.  
+Proyek ini dikembangkan sebagai bagian dari *SAS Pemrograman Website Lanjutan*, yang menekankan pengaplikasian konsep modern seperti:
 
-- UI/UX modern dan responsif  
-- Pengelolaan data produk & brand  
-- Sistem login & register  
-- Keranjang belanja (shopping cart)  
-- Integrasi database real (MySQL)  
+- Desain UI/UX responsif  
+- Pengelolaan data dinamis  
+- Interaksi pengguna yang ramah  
+- Manajemen produk & keranjang  
+- Sistem login dengan autentikasi aman  
 
-Aplikasi ini mensimulasikan alur toko online: melihat produk, memfilter brand, melihat detail, menambah keranjang, hingga login dan registrasi akun.
+Aplikasi ini mensimulasikan proses nyata e-commerce, mulai dari tampilan katalog produk, filter berdasarkan brand, detail produk, hingga pengelolaan keranjang belanja.
 
 ---
 
 ## 🎨 Link Desain  
-🔗 Figma Project:  
+Figma Project:  
 https://www.figma.com/design/kWbiiIv4rhLkQV8MC2EWHR/Untitled?node-id=0-1
 
 ---
@@ -38,6 +38,17 @@ https://www.figma.com/design/kWbiiIv4rhLkQV8MC2EWHR/Untitled?node-id=0-1
 - 🧑‍💻 **Yansen-loav**  
 - 🧑‍💻 **Fernandez-oss**  
 - 🧑‍💻 **kepin28**  
+
+---
+
+## ✨ Fitur Utama  
+- Responsive Design  
+- UI/UX Modern  
+- Optimized Performance  
+- Filter Berdasarkan Brand  
+- Sistem Keranjang Belanja  
+- Login & Register User  
+- Penyimpanan password terenkripsi  
 
 ---
 
