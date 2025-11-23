@@ -7,9 +7,9 @@
 ---
 
 <p align="center">
-  <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge"/>
-  <img src="https://img.shields.io-badge/Build-Responsive-blue?style=for-the-badge"/>
-  <img src="https://img.shields.io-badge/Collaboration-Teamwork-orange?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Build-Responsive-blue?style=for-the-badge"/>
+<img src="https://img.shields.io/badge/Collaboration-Teamwork-orange?style=for-the-badge"/>
 </p>
 
 ---
