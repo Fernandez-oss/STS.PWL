@@ -149,4 +149,3 @@ CREATE TABLE `keranjang` (
   CONSTRAINT `keranjang_ibfk_2` FOREIGN KEY (`produk_id`) REFERENCES `produk` (`id`) ON DELETE CASCADE
 );
 
---- <p align="center">🔥 Dibuat dengan semangat <b>kolaborasi</b> & <b>inovasi</b> 🔥</p>
