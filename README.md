@@ -1,7 +1,7 @@
 <h1 align="center">🏋️‍♂️ HMIN-SPORT</h1>
 <p align="center">
   <b>SAS Pemrograman Website Lanjutan</b><br>
-  🚀 Proyek pengembangan aplikasi web bertema olahraga dengan fitur modern, responsif, dan interaktif.
+  🚀 Proyek pengembangan aplikasi web bertema olahraga dengan fitur modern & interaktif.
 </p>
 
 ---
@@ -15,66 +15,27 @@
 ---
 
 ## 📖 Pengertian  
-**HMIN-SPORT** adalah aplikasi web berbasis e-commerce yang menyediakan berbagai perlengkapan olahraga dari brand-brand ternama. Website ini dirancang sebagai bagian dari proyek *SAS Pemrograman Website Lanjutan* dan dibuat dengan pendekatan nyata seperti pengembangan website profesional.
+**HMIN-SPORT** merupakan sebuah aplikasi web berbasis e-commerce yang dirancang khusus untuk menyediakan berbagai kebutuhan olahraga dalam satu platform.  
+Website ini dibangun sebagai bagian dari proyek *SAS Pemrograman Website Lanjutan*, dengan fokus pada penerapan langsung teori-teori pengembangan web modern seperti:
 
-Dalam proses pengembangannya, HMIN-SPORT menerapkan konsep:
+- Desain antarmuka pengguna (UI/UX) yang efektif  
+- Responsivitas pada berbagai ukuran layar  
+- Struktur data yang terorganisir  
+- Interaksi pengguna yang intuitif  
+- Integrasi database untuk sistem belanja  
 
-- **Desain UI/UX modern** yang nyaman digunakan  
-- **Responsivitas** yang menyesuaikan tampilan di berbagai perangkat  
-- **Manajemen data produk** berbasis database MySQL  
-- **Autentikasi pengguna** menggunakan enkripsi password  
-- **Interaksi pengguna real-time** melalui JavaScript  
-- **Struktur sistem belanja lengkap**, seperti brand filtering hingga keranjang belanja  
+HMIN-SPORT tidak hanya menjadi tugas akademik, tetapi juga simulasi nyata bagaimana sebuah website komersial bekerja — mulai dari menampilkan produk, menampilkan brand terkenal, mengelola keranjang belanja, hingga sistem autentikasi pengguna.
 
-HMIN-SPORT tidak hanya berfungsi sebagai toko online, namun juga sebagai sarana pembelajaran untuk memahami bagaimana aplikasi web bekerja secara menyeluruh. Mulai dari pembuatan tampilan, pemisahan halaman, penyimpanan data, relasi database, hingga proses login dan pengolahan keranjang belanja oleh pengguna.
+🛍️ Website ini menyediakan berbagai kategori produk olahraga, antara lain:
+- 👕 **Pakaian Olahraga** seperti jersey, training set, hoodie, dll  
+- 🏐 **Perlengkapan Olahraga** seperti sepatu, tas, bola, aksesoris  
+- 🏋️ **Alat-alat Fitness** seperti dumbbell, matras, handgrip, dll  
 
-Selain itu, website ini berupaya memberikan pengalaman berbelanja digital dengan alur yang mudah dipahami:
-
-1. Pengguna membuka halaman utama  
-2. Pengguna melihat produk berdasarkan brand  
-3. Pengguna dapat menelusuri detail produk  
-4. Produk dapat dimasukkan ke keranjang  
-5. Sistem akan menyimpan keranjang berdasarkan user yang login  
-6. Pengguna dapat checkout atau mengelola kembali keranjang  
-
-Melalui struktur dan fitur tersebut, HMIN-SPORT menjadi miniatur dari aplikasi e-commerce modern.
-
----
-
-## 🎯 Tujuan Pengembangan
-Proyek ini dikembangkan dengan beberapa tujuan pembelajaran, antara lain:
-
-- 💡 Mengimplementasikan teori pemrograman web ke proyek nyata  
-- 🔧 Mempelajari integrasi frontend dan backend secara langsung  
-- 🗄️ Mengelola data dalam database menggunakan SQL  
-- 🧠 Mengerti cara kerja sistem autentikasi  
-- 🤝 Melatih kerja tim dalam membuat proyek yang terstruktur  
-- 📦 Menghasilkan aplikasi web fungsional sesuai standar industri  
-
----
-
-## 🛍️ Kategori Produk yang Tersedia  
-Website menyediakan berbagai kategori seperti:
-
-- 👕 **Pakaian olahraga** (jersey, kaos olahraga, training set, hoodie, dll)  
-- 🏐 **Perlengkapan olahraga** (sepatu, tas gym, bola, dll)  
-- 🏋️ **Peralatan fitness** (dumbbell, handgrip, matras olahraga)  
-- 🏸 **Raket badminton & perlengkapannya**  
-
-Semua produk dilengkapi gambar, deskripsi, stok, harga, dan brand.
-
----
-
-## 🧩 Alur Pengguna di Website
-Agar pengguna dapat memaksimalkan fitur website, berikut alurnya:
-
-1. **Melihat beranda** → tampil produk dan brand rekomendasi  
-2. **Memilih brand** → filter produk berdasarkan merk tertentu  
-3. **Melihat detail produk** → menampilkan deskripsi, rating, stok  
-4. **Login / Daftar akun** → agar keranjang dapat tersimpan  
-5. **Menambahkan produk ke keranjang**  
-6. **Melihat keranjang** → pengguna dapat mengatur jumlah atau menghapus item  
-7. **Checkout (simulasi)**  
+Tujuan pengembangan HMIN-SPORT:
+- 💡 Mengaplikasikan teori pemrograman web ke real project  
+- 🤝 Melatih kolaborasi tim dalam workflow pengembangan  
+- 🚀 Menghasilkan aplikasi web yang modern, interaktif, dan stabil  
+- 🧩 Memahami proses end-to-end pembuatan website — dari desain, frontend, backend, hingga database  
 
 ---
 
@@ -82,12 +43,10 @@ Agar pengguna dapat memaksimalkan fitur website, berikut alurnya:
 🔗 Figma Project:  
 https://www.figma.com/design/kWbiiIv4rhLkQV8MC2EWHR/Untitled?node-id=0-1&t=42KpWn2v4UPbNkJn-1  
 
-Desain dibuat terlebih dahulu di Figma untuk memastikan tampilan konsisten, rapi, dan modern sebelum dikembangkan ke dalam kode.
-
 ---
 
 ## 👨‍💻 Contributors  
-✨ Terima kasih kepada tim hebat:  
+✨ Tim hebat:  
 - 🧑‍💻 **Yansen-loav**  
 - 🧑‍💻 **Fernandez-oss**  
 - 🧑‍💻 **kepin28**  
@@ -95,52 +54,48 @@ Desain dibuat terlebih dahulu di Figma untuk memastikan tampilan konsisten, rapi
 ---
 
 ## ✨ Fitur Utama  
-HMIN-SPORT memiliki fitur-fitur berikut:
-
-### 🎨 **1. Desain Modern & Responsif**
-UI yang nyaman dan bisa menyesuaikan ukuran layar.
-
-### 🛒 **2. Sistem Keranjang Belanja**
-Produk ditambahkan ke keranjang dan disimpan per-user.
-
-### 🔍 **3. Filter Berdasarkan Brand**
-Produk dapat dicari berdasarkan brand olahraga terkenal.
-
-### 👤 **4. Autentikasi Pengguna**
-- Login  
-- Register  
-- Password di-hash menggunakan bcrypt  
-
-### ⭐ **5. Detail Produk Lengkap**
-Terdapat:
-- Nama produk  
-- Harga  
-- Brand  
-- Rating  
-- Jumlah terjual  
-- Stok  
-- Gambar  
-- Deskripsi  
-
-### ⚡ **6. Optimized Performance**
-Loading cepat dan struktur file rapi.
+- ✅ **Responsive Design** — Optimal di HP & desktop  
+- 🎨 **UI/UX Modern** — Mengikuti konsep Figma  
+- ⚡ **Optimized Performance** — Loading cepat  
+- 🛒 **Sistem Keranjang Belanja**  
+- 🔍 **Filter Berdasarkan Brand**  
+- 👤 **User Authentication (login & register)**  
+- 🔐 **Password terenkripsi (bcrypt)**  
 
 ---
 
-## 📁 Struktur Folder (Contoh)
-```txt
-/
-├── assets/
-│   ├── css/
-│   ├── js/
-│   └── images/
-├── brand/
-├── produk/
-├── users/
-├── keranjang/
-├── koneksi.php
-├── index.php
-└── README.md
+## 🧱 Entitas Database  
+
+### **1. users**  
+Data akun pengguna  
+Kolom: id, nama, email, password  
+
+### **2. brand**  
+Daftar brand olahraga  
+Kolom: id, brand, logo  
+
+### **3. produk**  
+Data seluruh produk yang tersedia  
+Kolom: id, nama_produk, harga, brand, rating, terjual, orang, gambar, stock, deskripsi, kondisi  
+
+### **4. keranjang**  
+Relasi user ↔ produk  
+Kolom: id, user_id, produk_id, jumlah  
+Dengan foreign key ke `users` & `produk`  
+
+---
+
+## 🛠 Tech Stack  
+- 🌐 HTML  
+- 🎨 CSS  
+- ⚙️ JavaScript  
+- 🛢️ MySQL (phpMyAdmin)  
+- ✏️ Figma  
+
+---
+
+## 🗄️ Setup Database  
+```sql
 -- Database: `pwlmengenaskan`
 
 CREATE TABLE `brand` (
@@ -193,3 +148,5 @@ CREATE TABLE `keranjang` (
   CONSTRAINT `keranjang_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE,
   CONSTRAINT `keranjang_ibfk_2` FOREIGN KEY (`produk_id`) REFERENCES `produk` (`id`) ON DELETE CASCADE
 );
+
+--- <p align="center">🔥 Dibuat dengan semangat <b>kolaborasi</b> & <b>inovasi</b> 🔥</p>
