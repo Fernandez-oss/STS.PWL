@@ -8,93 +8,146 @@
 
 <p align="center">
   <img src="https://img.shields.io/badge/Status-Active-brightgreen?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Build-Responsive-blue?style=for-the-badge"/>
-  <img src="https://img.shields.io/badge/Collaboration-Teamwork-orange?style=for-the-badge"/>
+  <img src="https://img.shields.io-badge/Build-Responsive-blue?style=for-the-badge"/>
+  <img src="https://img.shields.io-badge/Collaboration-Teamwork-orange?style=for-the-badge"/>
 </p>
 
 ---
 
 ## 📖 Pengertian  
-**HMIN-SPORT** merupakan sebuah aplikasi web berbasis e-commerce yang dirancang khusus untuk menyediakan berbagai kebutuhan olahraga dalam satu platform.  
-Website ini dibangun sebagai bagian dari proyek *SAS Pemrograman Website Lanjutan*, dengan fokus pada penerapan langsung teori-teori pengembangan web modern seperti:
+**HMIN-SPORT** adalah aplikasi web berbasis e-commerce yang menyediakan berbagai perlengkapan olahraga dalam satu platform.  
+Proyek ini dibuat untuk *SAS Pemrograman Website Lanjutan* dan menekankan praktik nyata pengembangan web modern seperti:
 
-- Desain antarmuka pengguna (UI/UX) yang efektif  
-- Responsivitas pada berbagai ukuran layar  
-- Struktur data yang terorganisir  
-- Interaksi pengguna yang intuitif  
-- Integrasi database untuk sistem belanja  
+- UI/UX modern dan responsif  
+- Pengelolaan data produk & brand  
+- Sistem login & register  
+- Keranjang belanja (shopping cart)  
+- Integrasi database real (MySQL)  
 
-HMIN-SPORT tidak hanya menjadi tugas akademik, tetapi juga simulasi nyata bagaimana sebuah website komersial bekerja — mulai dari menampilkan produk, menampilkan brand terkenal, mengelola keranjang belanja, hingga sistem autentikasi pengguna.
-
-🛍️ Website ini menyediakan berbagai kategori produk olahraga, antara lain:
-- 👕 **Pakaian Olahraga** seperti jersey, training set, hoodie, dll  
-- 🏐 **Perlengkapan Olahraga** seperti sepatu, tas, bola, aksesoris  
-- 🏋️ **Alat-alat Fitness** seperti dumbbell, matras, handgrip, dll  
-
-Tujuan pengembangan HMIN-SPORT:
-- 💡 Mengaplikasikan teori pemrograman web ke real project  
-- 🤝 Melatih kolaborasi tim dalam workflow pengembangan  
-- 🚀 Menghasilkan aplikasi web yang modern, interaktif, dan stabil  
-- 🧩 Memahami proses end-to-end pembuatan website — dari desain, frontend, backend, hingga database  
+Aplikasi ini mensimulasikan alur toko online: melihat produk, memfilter brand, melihat detail, menambah keranjang, hingga login dan registrasi akun.
 
 ---
 
 ## 🎨 Link Desain  
 🔗 Figma Project:  
-https://www.figma.com/design/kWbiiIv4rhLkQV8MC2EWHR/Untitled?node-id=0-1&t=42KpWn2v4UPbNkJn-1  
+https://www.figma.com/design/kWbiiIv4rhLkQV8MC2EWHR/Untitled?node-id=0-1
 
 ---
 
 ## 👨‍💻 Contributors  
-✨ Tim hebat:  
 - 🧑‍💻 **Yansen-loav**  
 - 🧑‍💻 **Fernandez-oss**  
 - 🧑‍💻 **kepin28**  
 
 ---
 
-## ✨ Fitur Utama  
-- ✅ **Responsive Design** — Optimal di HP & desktop  
-- 🎨 **UI/UX Modern** — Mengikuti konsep Figma  
-- ⚡ **Optimized Performance** — Loading cepat  
-- 🛒 **Sistem Keranjang Belanja**  
-- 🔍 **Filter Berdasarkan Brand**  
-- 👤 **User Authentication (login & register)**  
-- 🔐 **Password terenkripsi (bcrypt)**  
+# 🚀 Fitur Utama Aplikasi
+
+HMIN-SPORT hadir dengan fitur lengkap untuk mendukung pengalaman belanja pengguna:
+
+### 1️⃣ **User Authentication**
+- Register & login akun  
+- Email unik  
+- Password disimpan dengan hash aman  
+- Session untuk menjaga status login  
+
+### 2️⃣ **Manajemen Produk**
+- List produk lengkap dengan harga, rating, stok, deskripsi  
+- Gambar produk  
+- Tampilan katalog modern & responsif  
+
+### 3️⃣ **Filter Berdasarkan Brand**
+- Pengguna bisa memilih produk berdasarkan brand tertentu  
+- Mempermudah pencarian barang  
+
+### 4️⃣ **Keranjang Belanja**
+- Tambah produk ke keranjang  
+- Jumlah produk bisa disesuaikan  
+- Data tersimpan dalam database (bukan sesi lokal)  
+- Sistem relasi user ↔ produk  
+
+### 5️⃣ **UI/UX Modern**
+- Responsive design untuk HP & desktop  
+- Layout elegan sesuai desain Figma  
+
+### 6️⃣ **Keamanan Aplikasi**
+- Password pengguna terenkripsi  
+- Query database stabil  
 
 ---
 
-## 🧱 Entitas Database  
+# 🧱 Entitas & Struktur Database
 
-### **1. users**  
-Data akun pengguna  
-Kolom: id, nama, email, password  
-
-### **2. brand**  
-Daftar brand olahraga  
-Kolom: id, brand, logo  
-
-### **3. produk**  
-Data seluruh produk yang tersedia  
-Kolom: id, nama_produk, harga, brand, rating, terjual, orang, gambar, stock, deskripsi, kondisi  
-
-### **4. keranjang**  
-Relasi user ↔ produk  
-Kolom: id, user_id, produk_id, jumlah  
-Dengan foreign key ke `users` & `produk`  
+Aplikasi menggunakan **4 entitas utama**:
 
 ---
 
-## 🛢 Tech Stack  
-- 🌐 HTML  
-- 🎨 CSS  
-- ⚙️ JavaScript  
-- 🛢️ MySQL (phpMyAdmin)  
-- ✏️ Figma  
+## **1️⃣ users**
+Akun pengguna aplikasi.
+
+| Kolom | Tipe | Keterangan |
+|-------|-------|------------|
+| id | INT | Primary key |
+| nama | VARCHAR(100) | Nama pengguna |
+| email | VARCHAR(100) | Email unik |
+| password | VARCHAR(255) | Password terenkripsi |
 
 ---
 
-## 🗄️ Setup Database  
+## **2️⃣ brand**
+Brand olahraga terkenal.
+
+| Kolom | Tipe | Keterangan |
+|-------|-------|------------|
+| id | INT | Primary key |
+| brand | VARCHAR(100) | Nama brand |
+| logo | VARCHAR(255) | File logo |
+
+---
+
+## **3️⃣ produk**
+Produk yang dijual.
+
+| Kolom | Tipe | Keterangan |
+|-------|-------|------------|
+| id | INT | Primary key |
+| nama_produk | VARCHAR(255) | Nama produk |
+| harga | INT | Harga |
+| brand | VARCHAR(50) | Brand |
+| rating | DECIMAL | Rating |
+| terjual | INT | Jumlah terjual |
+| orang | INT | Jumlah reviewer |
+| gambar | VARCHAR(255) | Foto produk |
+| stock | VARCHAR(255) | Ketersediaan |
+| deskripsi | TEXT | Detail produk |
+| kondisi | VARCHAR(255) | Kondisi barang |
+
+---
+
+## **4️⃣ keranjang**
+Relasi user dan produk.
+
+| Kolom | Tipe | Keterangan |
+|-------|-------|------------|
+| id | INT | Primary key |
+| user_id | INT | Pengguna |
+| produk_id | INT | Produk |
+| jumlah | INT | Jumlah barang |
+
+---
+
+# 🛢 Tech Stack  
+- HTML  
+- CSS  
+- JavaScript  
+- MySQL  
+- XAMPP  
+- Figma  
+
+---
+
+# 🗄️ Setup Database  
+
 ```sql
 -- Database: `pwlmengenaskan`
 
@@ -148,4 +201,3 @@ CREATE TABLE `keranjang` (
   CONSTRAINT `keranjang_ibfk_1` FOREIGN KEY (`user_id`) REFERENCES `users` (`id`) ON DELETE CASCADE,
   CONSTRAINT `keranjang_ibfk_2` FOREIGN KEY (`produk_id`) REFERENCES `produk` (`id`) ON DELETE CASCADE
 );
-
